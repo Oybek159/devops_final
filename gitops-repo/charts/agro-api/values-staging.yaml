@@ -1,0 +1,12 @@
+namespace: staging
+
+image:
+  repository: iscomarcuz/agro-app
+  tag: "staging"
+
+replicaCount: 2
+
+ingress:
+  enabled: true
+  className: nginx
+  host: staging.agro.local

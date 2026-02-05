@@ -1,0 +1,12 @@
+namespace: prod
+
+image:
+  repository: iscomarcuz/agro-app
+  tag: "prod"
+
+replicaCount: 3
+
+ingress:
+  enabled: true
+  className: nginx
+  host: api.agro.uz

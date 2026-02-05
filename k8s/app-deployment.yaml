@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agreeculture-app
+  namespace: agro
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agreeculture-app
+  template:
+    metadata:
+      labels:
+        app: agreeculture-app
+    spec:
+      containers:
+        - name: agreeculture-app
+          image: iscomarcuz/agreeculture-app:latest
+          ports:
+            - containerPort: 5000
