@@ -129,8 +129,7 @@ For automated deployment via ArgoCD:
 
 1. Access your ArgoCD server
    
-<img width="1280" height="501" alt="image" src="https://github.com/user-attachments/assets/b405cd12-6f98-4906-90fc-057ff47ae1fa" />
-
+<img width="1280" height="501" alt="image" src="https://github.com/user-attachments/assets/003007f7-c073-4377-bf4a-e4f5cd8e1a63" />
 
 
 3. Apply the application files from `gitops-repo/argo-apps/`:
