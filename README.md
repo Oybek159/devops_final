@@ -129,7 +129,8 @@ For automated deployment via ArgoCD:
 
 1. Access your ArgoCD server
    
-<img width="1664" height="636" alt="image" src="https://github.com/user-attachments/assets/3ca1d1af-49a4-493a-9212-39226c6e090d" />
+<img width="1280" height="501" alt="image" src="https://github.com/user-attachments/assets/b405cd12-6f98-4906-90fc-057ff47ae1fa" />
+
 
 
 3. Apply the application files from `gitops-repo/argo-apps/`:
@@ -140,7 +141,7 @@ kubectl apply -f gitops-repo/argo-apps/agro-api-prod.yaml
 kubectl apply -f gitops-repo/argo-apps/agro-api-staging.yaml
 ```
 - **Grafana** - Visualization and dashboards
-<img width="1336" height="789" alt="image" src="https://github.com/user-attachments/assets/f9b62dc9-6bd5-4b5a-babe-75540beffae2" />
+
 
 ## 🏗 Project Structure
 
