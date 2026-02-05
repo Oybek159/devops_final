@@ -140,6 +140,7 @@ kubectl apply -f gitops-repo/argo-apps/agro-api-prod.yaml
 kubectl apply -f gitops-repo/argo-apps/agro-api-staging.yaml
 ```
 - **Grafana** - Visualization and dashboards
+<img width="1280" height="731" alt="image" src="https://github.com/user-attachments/assets/a22440aa-eee5-4a99-a759-b6a49c44aa2a" />
 
 
 ## 🏗 Project Structure
